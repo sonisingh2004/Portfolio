@@ -1,16 +1,29 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+(Add your deployed link screenshot or remove this section)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 **Live Link:** _https://your-portfolio-link.com_  
+👉 **GitHub Repo:** _https://github.com/yourusername/portfolio_
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📧 Contact
+
+If you want to reach out, feel free to connect!
+
+- Email:sonisingh5093@gmail.com  
+- LinkedIn:[https://linkedin.com/in/yourprofile  ](https://www.linkedin.com/in/soni-singh-914613258/)
+
+---
+
+## ⭐ Show Your Support
+
+If you like this portfolio, consider giving the repo a **star** ⭐ on GitHub!
+
