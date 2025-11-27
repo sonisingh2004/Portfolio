@@ -9,7 +9,7 @@
 
 ## 🔗 Live Demo
 
-👉 **Live Link:** _https://your-portfolio-link.com_  
+👉 Live Link:soni-singh-portfolio.netlify.app
 👉 **GitHub Repo:** _https://github.com/yourusername/portfolio_
 
 ---
