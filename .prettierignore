@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Production
+dist/
+build/
+
+# Misc
+.git
+.gitignore
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Project-specific
+package-lock.json
+yarn.lock
