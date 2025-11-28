@@ -22,7 +22,7 @@ export default function Contact() {
           <div className="mb-6 text-left">
             <label className="block text-gray-300 mb-2">Your Name</label>
             <input
-              sonisingh5093ype="text"
+              type="text"
               placeholder="Enter your name"
               className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:border-teal-300"
             />
