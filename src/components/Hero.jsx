@@ -1,4 +1,17 @@
+import { gsap } from "gsap";
+import { useEffect, useRef } from "react";
+
 export default function Hero() {
+  const title = useRef(null);
+
+  useEffect(() => {
+    gsap.to(title.current, {
+      x: 20,
+      duration: 1,
+      delay: 1,
+      opacity: 0,
+    });
+  }, []);
   return (
     <section
       id="hero"
@@ -6,7 +19,10 @@ export default function Hero() {
     >
       {/* LEFT TEXT */}
       <div>
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+        <h1
+          ref={title}
+          className="text-4xl md:text-5xl font-bold leading-tight"
+        >
           Hi, I’m a <span className="text-teal-300">Frontend Developer</span>
           <br />
           Who Builds Clean & Modern UI.
