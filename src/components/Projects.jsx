@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <section id="#projects" className="max-w-6xl mx-auto px-6 py-24">
+    <section id="projects" className="max-w-6xl mx-auto px-6 py-24">
       {/* Title */}
       <h2 className="text-center text-4xl font-bold text-teal-300 mb-16">
         Featured Work

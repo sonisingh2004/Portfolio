@@ -1,17 +1,4 @@
-import { gsap } from "gsap";
-import { useEffect, useRef } from "react";
-
 export default function Hero() {
-  const title = useRef(null);
-
-  useEffect(() => {
-    gsap.to(title.current, {
-      x: 20,
-      duration: 1,
-      delay: 1,
-      opacity: 0,
-    });
-  }, []);
   return (
     <section
       id="hero"
@@ -19,10 +6,7 @@ export default function Hero() {
     >
       {/* LEFT TEXT */}
       <div>
-        <h1
-          ref={title}
-          className="text-4xl md:text-5xl font-bold leading-tight"
-        >
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
           Hi, I’m a <span className="text-teal-300">Frontend Developer</span>
           <br />
           Who Builds Clean & Modern UI.
@@ -37,12 +21,17 @@ export default function Hero() {
 
         {/* BUTTONS */}
         <div className="mt-8 flex gap-4">
-          <button className="px-6 py-3 bg-teal-400 text-black font-semibold rounded-lg hover:bg-teal-300 transition">
-            View Projects
-          </button>
-          <button className="px-6 py-3 border border-teal-400 rounded-lg hover:bg-teal-400 hover:text-black transition">
-            Get in Touch
-          </button>
+          <a href="#projects">
+            <button className="px-6 py-3 bg-teal-400 text-black font-semibold rounded-lg hover:bg-teal-300 transition">
+              View Projects
+            </button>
+          </a>
+
+          <a href="#contact">
+            <button className="px-6 py-3 border border-teal-400 rounded-lg hover:bg-teal-400 hover:text-black transition">
+              Get in Touch
+            </button>
+          </a>
         </div>
 
         {/* SKILL TAGS */}
