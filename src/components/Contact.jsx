@@ -23,6 +23,7 @@ export default function Contact() {
             <label className="block text-gray-300 mb-2">Your Name</label>
             <input
               type="text"
+              name="name"
               placeholder="Enter your name"
               className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:border-teal-300"
             />
@@ -33,6 +34,7 @@ export default function Contact() {
             <label className="block text-gray-300 mb-2">Your Email</label>
             <input
               type="email"
+              name="email"
               placeholder="Enter your email"
               className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:border-teal-300"
             />
@@ -42,6 +44,7 @@ export default function Contact() {
           <div className="mb-6 text-left">
             <label className="block text-gray-300 mb-2">Your Message</label>
             <textarea
+              name="message"
               rows={4}
               placeholder="Write your message..."
               className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:border-teal-300 resize-none"
