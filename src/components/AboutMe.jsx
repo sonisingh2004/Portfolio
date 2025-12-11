@@ -12,7 +12,7 @@ export default function AboutMe() {
         <div className="flex justify-center">
           <div className="w-60 h-60 rounded-full border-4 border-white/40 overflow-hidden flex items-center justify-center bg-white/5">
             <img
-              src="/src/assets/Profile picture.png"
+              src="/Profile picture.png"
               alt="Profile Photo"
               className="w-full h-full object-cover"
             />

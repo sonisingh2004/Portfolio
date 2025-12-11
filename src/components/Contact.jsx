@@ -25,6 +25,7 @@ export default function Contact() {
               type="text"
               name="name"
               placeholder="Enter your name"
+              required="name required"
               className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:border-teal-300"
             />
           </div>
@@ -35,6 +36,7 @@ export default function Contact() {
             <input
               type="email"
               name="email"
+              required="email required"
               placeholder="Enter your email"
               className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:border-teal-300"
             />
@@ -47,6 +49,7 @@ export default function Contact() {
               name="message"
               rows={4}
               placeholder="Write your message..."
+              required="write your message"
               className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:border-teal-300 resize-none"
             ></textarea>
           </div>

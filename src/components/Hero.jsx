@@ -36,16 +36,14 @@ export default function Hero() {
 
         {/* SKILL TAGS */}
         <div className="mt-10 flex gap-3 flex-wrap">
-          {["React", "Next.js", "Tailwind CSS", "JavaScript", "UI/UX"].map(
-            (item) => (
-              <span
-                key={item}
-                className="px-4 py-1 border border-gray-500 rounded-full text-sm hover:border-teal-300 transition"
-              >
-                {item}
-              </span>
-            ),
-          )}
+          {["React", "Next.js", "Tailwind CSS", "JavaScript"].map((item) => (
+            <span
+              key={item}
+              className="px-4 py-1 border border-gray-500 rounded-full text-sm hover:border-teal-300 transition"
+            >
+              {item}
+            </span>
+          ))}
         </div>
       </div>
 
